@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    padding: 0 30px;
+}
+
+/* nav-top starts */
+.nav-top{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c5f7f0;
+    width: 100%;
+    height: 50px;
+}
+
+.first_nav-top{
+    position: absolute;
+    left: 50px;
+}
+
+.second_nav-top{
+    position: absolute;
+    right: 50px;
+}
+
+.first_nav-top i{
+    padding: 0 10px;
+    font-size: 25px;
+}
+
+.second_nav-top i{
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+/* navbar starts */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navbar img{
+    padding: 0px 10px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    transition: all 0.5s;
+    padding: 10px;
+    color: black;
+}
+
+.nav-links li{
+    list-style-type: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links a:hover{
+    background: #353353;
+    color: white;
+}
+
+.first-btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 20px;
+    background-color: rgb(47, 173, 212);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+.first-btn:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    transform: scale(1.05);
+}
+
+
+/* section1 start */
+.section1{
+    background-image: url("Home-Work1/img/14.webp");
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+}
+
+.text1{
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.second-btn{
+    position: absolute;
+    top: 410px;
+    left: 150px;
+}
+
+.text1 h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.text1 h3{
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.text1 p{
+    font-size: 20px;
+    font-weight: lighter;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+
+
+.second-btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 20px;
+    background-color: rgb(47, 173, 212);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s;
+    margin-top: 30px;
+}
+
+.second-btn:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    transform: scale(1.05);
+}
+
+.services{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -70px;
+    background-color: #31e0e0
+}
+
+.services div{
+    text-align: center;
+    transition: all 1s;
+}
+
+.services div:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+    transform: scale(1.05);
+}
+
+.services button:hover{
+    background-color: rgb(255, 0, 212);
+    color: white;
+}
+
+.services i{
+    font-size: 50px;
+}
+
+.services button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+/* section3 start */
+.section3{
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text2, .img{
+    width: 50%;
+}
+
+.img img{
+    width: 300px;
+}
+
+.img{
+    padding: 30px;
+}
+
+.img :nth-child(2){
+    margin-left: -80px;
+}
+
+.text2 :nth-child(1){
+    font-size: 30px;
+    opacity: .8;
+    color: #31e0e0;
+}
+
+.text2 h1{
+    font-size: 35px;
+}
+
+.text2 p{
+    font-style: italic;
+    font-size: 20px;
+    opacity: .6;
+}
+
+.text2 h5{
+    font-size: 25px;
+}
+
+.text2 button{
+    font-size: 20px;
+    padding: 8px 18px;
+    cursor: pointer;
+    border: 1px solid #31e0e0;
+    color: #31e0e0;
+    background-color: #fff;
+}
+
+.text2 button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* section4 start */
+.section4{
+    background-color: #d4fcfc;
+    width: 100%;
+}
+
+.text3{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text3 h1{
+    font-size: 40px;
+}
+
+.text3 p{
+    opacity: .7;
+}
+
+.img1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+    margin-left: 65px;
+}
+
+.img2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+    margin-left: 65px;
+}
+
+
+
+/* section5 start  */
+.section5{
+    background-image: url("Home-Work1/img/2.webp");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 768px;
+    padding-top: 50px;
+}
+
+.section5 div p{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+/* section6 starts */
+.section6{
+    display: flex;
+    margin-bottom: 160px;
+}
+
+.text4{
+    width: 50%;
+    padding-left: 80px;
+    margin-top: 50px;
+}
+
+.img3{
+    width: 50%;
+}
+
+.text4 i{
+    font-size: 50px;
+    color: #31e0e0;
+}
+
+
+
+/* section7 starts */
+.section7 h2{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 210px;
+    font-size: 50px
+}
+.doctors{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+
+
+/* section8 starts */
+.s8d1{
+    background-image: url("Home-Work1/img/16.webp");
+    width: 50%;
+    height: 243px;
+    opacity: 0.8;
+}
+
+.s8d1 div{
+    margin: 100px;
+}
+
+.s8d2{
+    background-image: url("Home-Work1/img/17.webp");
+    width: 50%;
+    height: 243px;
+    opacity: 0.8;
+}
+
+.section8{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.s8d2 div{
+    margin: 100px;
+}
+
+.s8d1 button{
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.s8d2 button{
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+/* footer starts */
+footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 554px;
+    background: rgb(48, 47, 47);
+    color: white;
+}
+
+.right{
+    display: flex;
+    padding-left: 40px;
+}
+
+.left i{
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+}
+
+.left i:hover{
+    color: rgb(4, 0, 255);
+}
+
+.right div{
+    padding: 50px;
+}
+
+.copyright{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background: #000;
+}
+
+.copyright p{
+    /* margin-top: 40px; */
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
